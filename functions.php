@@ -10,3 +10,7 @@ function coblocks_parent_theme_enqueue_styles() {
     );
 
 }
+
+function date_format($input_date) {
+     return date("m/d/Y H:i", strtotime($input_date));         
+}
